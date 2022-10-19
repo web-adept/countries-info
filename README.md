@@ -1,5 +1,8 @@
 
 #  [🔗 Link](https://web-adept.github.io/countries-info/)
+```
+Layout supports mobile📱(up to 375px) and desktop 🖥 (up to 1440px) versions
+```
 
 
 
@@ -12,7 +15,7 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 ![styled-components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
-# Run Locally
+# 🚦 Run Locally
 
 Clone the project
 
