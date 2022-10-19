@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Main>
         <Switch>
-          <Route exact path="/countries-info">
+          <Route exact path="/home">
             <HomePage countries={countries} setCountries={setCountries} />
           </Route>
           <Route path="/country/:name" component={Details} />
