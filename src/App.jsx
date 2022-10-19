@@ -1,22 +1,22 @@
-import { useState } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { useState } from 'react'
+import { Switch, Route } from 'react-router-dom'
 
-import { Header } from './components/Header';
-import { Main } from './components/Main';
+import { Header } from './components/Header'
+import { Main } from './components/Main'
 
-import { HomePage } from './pages/HomePage';
-import { Details } from './pages/Details';
-import { NotFound } from './pages/NotFound';
+import { HomePage } from './pages/HomePage'
+import { Details } from './pages/Details'
+import { NotFound } from './pages/NotFound'
 
 function App() {
-  const [countries, setCountries] = useState([]);
+  const [countries, setCountries] = useState([])
 
   return (
     <>
       <Header />
       <Main>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/countries-info">
             <HomePage countries={countries} setCountries={setCountries} />
           </Route>
           <Route path="/country/:name" component={Details} />
@@ -24,7 +24,7 @@ function App() {
         </Switch>
       </Main>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
